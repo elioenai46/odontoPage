@@ -9,6 +9,7 @@
     });
   }
 
+  
   // Observador de intersección
   const animacionObserver = new IntersectionObserver(activarAnimacion, {
     threshold: 0.5 // Define el porcentaje de visibilidad necesario para activar la animación (0.5 significa al menos el 50% de la sección visible)
