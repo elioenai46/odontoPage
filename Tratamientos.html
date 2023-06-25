@@ -4,190 +4,221 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Odontologia</title>
+  <title>Tratamientos</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
   <header>
+
+    <!--degradado-->
+    <div class="degradado-Encabezado"></div>
+
+    <div class="d-flex justify-content-center align-items-center logo-unsis">
+      <img src="images/unsis.png" alt="Logo UNSIS">
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center logo-unsis">
+      <img src="images/CEODON.jpg" alt="Logo UNSIS">
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="/Tratamientos.html" >
-                Tratamientos
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="/Infraestructura.html">
-                Infraestructura
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="/Atencion.html" >
-                Atención
-              </a>
-             
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="/Segimiento.html">
-                Seguimiento
-              </a>
-            
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="index.html" style="color: black;">Home</a>
+
+            <a class="nav-link" href="tratamientos.html" style="color: black;">Tratamientos</a>
+            <a class="nav-link" href="infraestructura.html" style="color: black;">Equipamiento</a>
+            <a class="nav-link" href="seguimiento.html" style="color: black;">Seguimiento</a>
+          </div>
         </div>
       </div>
     </nav>
   </header>
+  <hr>
 
-  <!-- contenido de la pagina-->
-  <!--Cards tratamientos-->
 
-  <div class="profile-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="img1"><img src="images/fondo.png" alt=""></div>
-            <div class="img2"><img src="images/orellana.jpeg" alt=""></div>
-            <div class="main-text">
-              <h2>Extracciones</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum sed consectetur quos
-                laboriosam, itaque voluptates aspernatur sequi, consequuntur amet adipisci soluta labore assumenda
-                deserunt modi dolorum veniam necessitatibus error.</p>
-              <div class="socials">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-Linkedin"></i>
-                <i class="fa fa-dribbble"></i>
-                <i class="fa fa-twitter"></i>
-              </div>
-            </div>
-          </div>
-          
+  <div class="row" style="margin: 100px; border: 100px;">
 
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/detartraje.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Detartaje</h4>
+          <p class="card-text">El detartraje es un tratamiento dental importante para mantener una buena salud bucal.
+            Ayuda a eliminar la acumulación de sarro y placa bacteriana que se forma en los dientes y encías.</p>
+          <p class="card-text">El tratamiento de detartraje se recomienda realizarlo al menos una vez al año, pero la
+            frecuencia puede variar según las necesidades individuales.</p><br>
+          <p class="card-text">Precio: $150</p>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="img1"><img src="images/fondo.png" alt=""></div>
-            <div class="img2"><img src="images/orellana.jpeg" alt=""></div>
-            <div class="main-text">
-              <h2>Dr. José Eduardo Orellana Centeno</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum sed consectetur quos
-                laboriosam, itaque voluptates aspernatur sequi, consequuntur amet adipisci soluta labore assumenda
-                deserunt modi dolorum veniam necessitatibus error.</p>
-              <div class="socials">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-Linkedin"></i>
-                <i class="fa fa-dribbble"></i>
-                <i class="fa fa-twitter"></i>
-              </div>
-            </div>
-          </div>
-          
-
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="img1"><img src="images/fondo.png" alt=""></div>
-            <div class="img2"><img src="images/mau.jpeg " alt=""></div>
-            <div class="main-text">
-              <h2>C.D. Mauricio González Osorio</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum sed consectetur quos
-                laboriosam, itaque voluptates aspernatur sequi, consequuntur amet adipisci soluta labore assumenda
-                deserunt modi dolorum veniam necessitatibus error.</p>
-              <div class="socials">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-Linkedin"></i>
-                <i class="fa fa-dribbble"></i>
-                <i class="fa fa-twitter"></i>
-              </div>
-            </div>
-          </div>
-          
-
-        </div>
-
-
       </div>
-
     </div>
 
-  </div>
-  <footer>
-    <footer class="bg-primary text-white text-center text-lg-start">
-      <!-- Grid container -->
-      <div class="container p-4">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Contacto</h5>
-
-            <p>
-              Departamento de recepción
-            </p>
-            <p>+1 (555) 123-4567</p>
-            <p>
-              Departamento de cirujia bucal
-            </p>
-            <p>+52 951 400 8591</p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Ayuda</h5>
-            <p>
-              Departamento de recepción
-            </p>
-
-            <p>odonto@unsis.com</p>
-            <p>
-              Citas
-            </p>
-
-            <p>citasodonto@unsis.com</p>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-0">Ubicación</h5>
-
-            <!--Google map-->
-            <!--Google map-->
-            <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.1113311152421!2d-96.58261000755974!3d16.34546013801339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8a76b98a235ab%3A0xcaa3d9cf2b57b6de!2sCentro%20de%20Odontolog%C3%ADa%20de%20la%20Universidad%20de%20la%20Sierra%20Sur!5e0!3m2!1ses-419!2smx!4v1687362960710!5m2!1ses-419!2smx" frameborder="0"
-                style="border:0" allowfullscreen></iframe>
-            </div>
-            <!--Google Maps-->
-
-            <!--Google Maps-->
-          </div>
-          <!--Grid column-->
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/limpiezaDental.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Limpieza Dental</h4>
+          <p class="card-text">La limpieza dental es un procedimiento fundamental para mantener una buena salud bucal.
+            Ayuda a eliminar la placa bacteriana, el sarro y las manchas que se acumulan en los dientes y encías.</p>
+          <p class="card-text">El procedimiento de limpieza dental se recomienda realizarlo al menos una vez al año,
+            aunque puede variar según las necesidades individuales y la recomendación del dentista.</p>
+          <p class="card-text">Precio de la limpieza dental: $80</p>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
         </div>
-        <!--Grid row-->
       </div>
-      <!-- Grid container -->
+    </div>
 
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
 
-        <a class="text-white" href="https://mdbootstrap.com/"></a>
+
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/extraccion1.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Extracción Dental</h4>
+          <p class="card-text">La extracción dental es un procedimiento en el cual se retira un diente del área bucal.
+            Puede ser necesario realizar una extracción dental debido a diversas razones, como dientes dañados,
+            infecciones o problemas de alineación dental.</p>
+          <p class="card-text">El procedimiento de extracción dental se realiza con anestesia local para garantizar que
+            el paciente esté cómodo y sin dolor durante el proceso.</p>
+          <p class="card-text">Precio de la extracción dental: $110</p>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
+        </div>
       </div>
-      <!-- Copyright -->
-    </footer>
+    </div>
+
+
+
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/ferula.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Férula Dental</h4>
+          <p class="card-text">La férula dental es un dispositivo utilizado para proteger los dientes y reducir la
+            tensión en la mandíbula.</p>
+          <p class="card-text">El procedimiento de obtención de una férula dental generalmente implica una visita al
+            dentista para tomar impresiones de los dientes y mandíbula, y luego se fabrica una férula personalizada para
+            un ajuste perfecto. </p><br>
+          <p class="card-text">Precio de la férula dental: $265</p><br><br>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/curetaje.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Curetaje</h4>
+          <p class="card-text">El curetaje es un procedimiento periodontal utilizado para tratar la enfermedad
+            periodontal avanzada. Consiste en eliminar la placa bacteriana, el sarro y las bacterias acumuladas debajo
+            de la línea de las encías.</p>
+          <p class="card-text">Se utiliza una herramienta llamada cureta dental para raspar suavemente las superficies
+            de las raíces dentales y limpiar las bolsas periodontales. Después del curetaje, es importante seguir las
+            instrucciones del dentista sobre el cuidado postoperatorio y mantener una buena higiene oral.</p>
+          <p class="card-text">Precio del curetaje: $360</p>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-4 mt-4 text-black">
+      <div class="card" style="width:80%">
+        <img class="card-img-top" src="images/coronaProvisional.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Corona Dental Provisional</h4>
+          <p class="card-text">La corona dental provisional es un dispositivo temporal que se utiliza mientras se
+            fabrica la corona dental definitiva. Se coloca sobre un diente preparado que necesita protección y
+            restauración antes de recibir la corona permanente.</p>
+          <p class="card-text">La corona dental provisional es personalizada y diseñada para ajustarse adecuadamente en
+            la boca del paciente. Proporciona protección, restauración estética y funcionalidad mientras se espera la
+            corona definitiva.</p><br>
+          <p class="card-text">Precio de la corona dental provisional: $220</p>
+          <a href="#" class="btn btn-primary" style="background-color: #54CA90;">Agendar cita</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <br>
+
+  <footer class="bg-primary text-white text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contacto</h5>
+
+          <p>
+            Departamento de recepción
+          </p>
+          <p>+1 (555) 123-4567</p>
+          <p>
+            Departamento de cirujia bucal
+          </p>
+          <p>+52 951 400 8591</p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Ayuda</h5>
+          <p>
+            Departamento de recepción
+          </p>
+
+          <p>odonto@unsis.com</p>
+          <p>
+            Citas
+          </p>
+
+          <p>citasodonto@unsis.com</p>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Ubicación</h5>
+
+          <br>
+          <!--Google map-->
+          <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d964.0782778122384!2d-96.58323158440662!3d16.344946434965017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8a76b98a235ab%3A0xcaa3d9cf2b57b6de!2sCentro%20de%20Odontolog%C3%ADa%20de%20la%20Universidad%20de%20la%20Sierra%20Sur!5e0!3m2!1ses-419!2smx!4v1687508628586!5m2!1ses-419!2smx"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          </div>
+
+          <!--Google Maps-->
+
+          <!--Google Maps-->
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+
+  
+
   </footer>
+
 
 </body>
 
